@@ -14,8 +14,8 @@ Step2: Install wiringPi with a command like,
 Step3: If send GPS data, install libgps from https://github.com/tsuyoshiohashi/libgps  
     Configire serial port name if necessary.  
 Step4: UPDATE enddevice.h according to your environment.    
-    DEVEUI,APPEUI,APPKEY  
-    frequency,txpower  
+    `DEVEUI,APPEUI,APPKEY`
+    `frequency,txpower`  
     whether to use GPS module. If not use, dummy GPS data will be used.  
 Step5: $ make    
 Step6: $ ./enddevice  
