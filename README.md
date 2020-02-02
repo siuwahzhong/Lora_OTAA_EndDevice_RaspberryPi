@@ -8,9 +8,9 @@ Tested only RPI3B+, Dragino GPS HAT (SX1276) and TTN.
 How to build:
 -----------
 Step1: SPI needs to be enabled on the Raspberry Pi  
-    '$ sudo raspi-config'  
+    `$ sudo raspi-config`  
 Step2: Install wiringPi with a command like,  
-    '$ sudo apt-get install wiringPi'  
+    `$ sudo apt-get install wiringPi`
 Step3: If send GPS data, install libgps from https://github.com/tsuyoshiohashi/libgps  
     Configire serial port name if necessary.  
 Step4: UPDATE enddevice.h according to your environment.    
