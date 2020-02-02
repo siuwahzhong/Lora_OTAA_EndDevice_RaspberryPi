@@ -1,0 +1,44 @@
+
+===== LoRa End Device for RPI/Dragino =====
+08:47:18.028 : SX1276 Detected. Starting.
+        DEVEUI(lsb): A0:03:90:FF:FF:EB:27:B8:
+        APPEUI(lsb): 0D:58:02:D0:7E:D5:B3:70:
+        APPKEY(msb): 9A:70:34:03:32:AE:AE:02:BF:D7:3C:92:CE:3C:73:E6:
+08:47:18.028   Operating w/ SF7, 923.400000 Mhz.
+08:47:19.028 : State: Setup -> timer
+08:47:19.028 : State: Idle -> entry
+08:47:20.028 : State: Idle -> timer
+08:47:20.028 : State: Tx -> entry
+08:47:20.028 : Join Requesting.
+        DevNonce: 3A42.
+08:47:20.028 : Channel is Free.  -104
+        23 bytes PHYPayload to tx. 00:0d:58:02:d0:7e:d5:b3:70:a0:03:90:ff:ff:eb:27:b8:42:3a:ed:5a:c3:06:
+08:47:20.038 : Tx Frame done.
+08:47:20.108 : State: Rx2 -> entry
+        Listening ...............
+08:47:35.108 : State: Idle -> entry
+08:47:36.108 : State: Idle -> timer
+08:47:36.108 : State: Tx -> entry
+08:47:36.108 : Join Requesting.
+        DevNonce: 8FAE.
+08:47:36.108 : Channel is Free.  -91
+        23 bytes PHYPayload to tx. 00:0d:58:02:d0:7e:d5:b3:70:a0:03:90:ff:ff:eb:27:b8:ae:8f:3a:f6:1b:a4:
+08:47:36.108 : Tx Frame done.
+08:47:36.178 : State: Rx2 -> entry
+        Listening ..08:47:38.178 : Recved radio packet
+        SX FIFO DATA: 20:0f:d4:12:41:6a:93:37:2a:70:52:fe:d6:cd:ea:c2:07:96:dc:fc:be:5d:c6:78:e4:3c:d8:db:89:e2:07:d9:9e:
+        Packet RSSI: -76, Packet SNR: 10, RSSI: -93, Length: 33
+        cal_Mic:0x8cd040cd, frm_Mic:0
+        cal_Mic:0x8cd040cd, frm_Mic:0x8cd040cd
+08:47:38.188 : RX JoinAccept MIC Error.
+
+08:47:38.188 : State: Idle -> entry
+08:47:39.188 : State: Idle -> timer
+08:47:39.188 : State: Tx -> entry
+08:47:39.188 : Join Requesting.
+        DevNonce: 6B28.
+08:47:39.188 : Channel is Free.  -87
+        23 bytes PHYPayload to tx. 00:0d:58:02:d0:7e:d5:b3:70:a0:03:90:ff:ff:eb:27:b8:28:6b:02:65:27:77:
+08:47:39.188 : Tx Frame done.
+08:47:39.258 : State: Rx2 -> entry
+        Listening ...........^C
