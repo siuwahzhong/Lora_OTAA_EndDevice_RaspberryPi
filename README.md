@@ -1,4 +1,4 @@
-Lora OTAA End Device for RaspberryPi and Dragino GPS HAT
+Lora OTAA End Device for RPI and Dragino GPS HAT
 ====================================================
 
 This Software is Lora OTAA Eed Device sample.
