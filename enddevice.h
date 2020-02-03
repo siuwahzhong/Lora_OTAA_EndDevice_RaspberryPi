@@ -37,7 +37,7 @@ static const uint8_t APPKEY[16] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x
 /* Otherwise send dummy gps data                   */
 //#define USE_GPS_MODULE
 
-/* GPS data size = 11byte, Air Time = 400ms @SF10,  */
+/* GPS data size = 11byte, Air Time <= 400ms @SF10,  */
 /* MUST be larger then 40 for 1% duty rule          */
 #define INTERVAL_KEEP_ALIVE 60  // Second
 #define SF_         SF7         //
