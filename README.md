@@ -24,7 +24,7 @@ Feature:
 -----------
 This implementation is for personal experiments of a OTAA LoRaWAN enddevice  
  -Activate by OTAA  
-   --For receiving Join_Accept, send empty frame after Join_Req. 
+   --For receiving Join_Accept, send empty frame after Join_Req.   
  -GPS data is sent with cayenne-lpp foramat.    
  -TX/RX work like Class C (RX2 only)  
  -Downlink data available  
